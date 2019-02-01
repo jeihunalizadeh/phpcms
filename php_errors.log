@@ -1,0 +1,101 @@
+[30-Jan-2019 18:45:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 18
+[30-Jan-2019 18:45:51 UTC] PHP Stack trace:
+[30-Jan-2019 18:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:45:51 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:45:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:18
+[30-Jan-2019 18:45:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 20
+[30-Jan-2019 18:45:51 UTC] PHP Stack trace:
+[30-Jan-2019 18:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:45:51 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:45:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:20
+[30-Jan-2019 18:46:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 18
+[30-Jan-2019 18:46:17 UTC] PHP Stack trace:
+[30-Jan-2019 18:46:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:46:17 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:46:17 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:18
+[30-Jan-2019 18:46:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 20
+[30-Jan-2019 18:46:17 UTC] PHP Stack trace:
+[30-Jan-2019 18:46:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:46:17 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:46:17 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:20
+[30-Jan-2019 18:46:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 18
+[30-Jan-2019 18:46:20 UTC] PHP Stack trace:
+[30-Jan-2019 18:46:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:46:20 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:46:20 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:18
+[30-Jan-2019 18:46:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 20
+[30-Jan-2019 18:46:20 UTC] PHP Stack trace:
+[30-Jan-2019 18:46:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:46:20 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:46:20 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:20
+[30-Jan-2019 18:47:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 18
+[30-Jan-2019 18:47:25 UTC] PHP Stack trace:
+[30-Jan-2019 18:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:47:25 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:47:25 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:18
+[30-Jan-2019 18:47:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 20
+[30-Jan-2019 18:47:25 UTC] PHP Stack trace:
+[30-Jan-2019 18:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:47:25 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:47:25 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:20
+[30-Jan-2019 18:47:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 18
+[30-Jan-2019 18:47:42 UTC] PHP Stack trace:
+[30-Jan-2019 18:47:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:47:42 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:47:42 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:18
+[30-Jan-2019 18:47:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 20
+[30-Jan-2019 18:47:42 UTC] PHP Stack trace:
+[30-Jan-2019 18:47:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:47:42 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:47:42 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:20
+[30-Jan-2019 18:47:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 18
+[30-Jan-2019 18:47:54 UTC] PHP Stack trace:
+[30-Jan-2019 18:47:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:47:54 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:47:54 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:18
+[30-Jan-2019 18:47:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 20
+[30-Jan-2019 18:47:54 UTC] PHP Stack trace:
+[30-Jan-2019 18:47:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:47:54 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:47:54 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:20
+[30-Jan-2019 18:49:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 21
+[30-Jan-2019 18:49:14 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:14 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:14 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:21
+[30-Jan-2019 18:49:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 23
+[30-Jan-2019 18:49:14 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:14 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:14 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:23
+[30-Jan-2019 18:49:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 21
+[30-Jan-2019 18:49:37 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:37 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:37 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:21
+[30-Jan-2019 18:49:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 23
+[30-Jan-2019 18:49:37 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:37 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:37 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:23
+[30-Jan-2019 18:49:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 21
+[30-Jan-2019 18:49:41 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:41 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:41 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:21
+[30-Jan-2019 18:49:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 23
+[30-Jan-2019 18:49:41 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:41 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:41 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:23
+[30-Jan-2019 18:49:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 21
+[30-Jan-2019 18:49:47 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:47 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:47 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:21
+[30-Jan-2019 18:49:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 23
+[30-Jan-2019 18:49:47 UTC] PHP Stack trace:
+[30-Jan-2019 18:49:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[30-Jan-2019 18:49:47 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:4
+[30-Jan-2019 18:49:47 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php:23
+[30-Jan-2019 19:03:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/index.php on line 41
