@@ -1,0 +1,38 @@
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 1
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 1
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(includes/db.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 2
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(): Failed opening 'includes/db.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 2
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 5
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(): Failed opening 'includes/navigation.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 5
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 38
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:38
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 40
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:40
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(includes/sidebar.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 77
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(): Failed opening 'includes/sidebar.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 77
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 84
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
+[03-Feb-2019 16:32:53 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php on line 84
+[03-Feb-2019 16:32:53 UTC] PHP Stack trace:
+[03-Feb-2019 16:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/includes/search.php:0
