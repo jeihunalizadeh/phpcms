@@ -42,3 +42,16 @@
 [09-Feb-2019 14:03:10 UTC] PHP Warning:  include(): Failed opening 'includes/admin_header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php on line 1
 [09-Feb-2019 14:03:10 UTC] PHP Stack trace:
 [09-Feb-2019 14:03:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:0
+[09-Feb-2019 14:59:06 UTC] PHP Warning:  include(/CMS_TEMPLATE/includes/db.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/admin_header.php on line 1
+[09-Feb-2019 14:59:06 UTC] PHP Stack trace:
+[09-Feb-2019 14:59:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:0
+[09-Feb-2019 14:59:06 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:1
+[09-Feb-2019 14:59:06 UTC] PHP Warning:  include(): Failed opening '/CMS_TEMPLATE/includes/db.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/admin_header.php on line 1
+[09-Feb-2019 14:59:06 UTC] PHP Stack trace:
+[09-Feb-2019 14:59:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:0
+[09-Feb-2019 14:59:06 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:1
+[09-Feb-2019 15:18:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 98
+[09-Feb-2019 15:19:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 98
+[09-Feb-2019 15:19:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 98
+[09-Feb-2019 15:19:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 98
+[09-Feb-2019 15:21:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 100
