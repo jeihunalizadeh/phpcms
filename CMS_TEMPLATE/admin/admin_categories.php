@@ -20,30 +20,7 @@
                         
                         <div class="col-xs-6">
                             <?php
-                            if(isset($_POST['submit'])) {
-                                $cat_title = $_POST['cat_title'];
-                                if($cat_title == "" || empty($cat_title)) {
-                                    echo ("This field should not be empty");
-                                } else {
-                                    $query = "INSERT INTO categories(cat_title)";
-                                    $query .= "VALUE('{$cat_title}')";
-                                    
-                                    $create_category_query = mysqli_query($connection, $query);
-                                    
-                                    if(!$create_category_query) {
-                                        die("SOMETHING WENT WRONG" . mysqli_error($connection));
-                                    }
-                                }
-                            }
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
+                         insertCategories();
                             ?>
                             <form method="post">
                                  <div class="form-group">
@@ -54,19 +31,20 @@
                                      <input class="btn btn-primary" type="submit" name="submit" value="Add Category"/>
                                  </div>
                             </form>
+                            <?php ///edit and update query
+                            if(isset($_GET['edit'])){
+                                $cat_id = $_GET['edit'];
+                                include("includes/admin_edit_category.php");
+                            }
+                            
+                            
+                            
+                            ?>
                         </div>
                         
                         <div class="col-xs-6">
                             
-                            <?php
-                            
-                            
-                    $query = "SELECT * FROM categories";
-                    $select_admin_categories = mysqli_query($connection, $query);
-                            
-                            ?>
-                            
-                
+                    
                             <table class="table table-bordered table-hover">
                                 <thead>
                                 <tr>
@@ -81,18 +59,14 @@
                                 <tbody>
                             
                                     <?php
-                                    
-                                while($row = mysqli_fetch_assoc($select_admin_categories)){
-                                $cat_title = $row['cat_title'];
-                                $cat_id = $row['cat_id'];
-                                echo "<tr>
-                                        <td>{$cat_id}</td>
-                                        <td>{$cat_title}</td>                                        
-                                    </tr>";
-                                }
-                                    
-                                 ?> 
+                                    // READ AND CREATE CATEGORY
+                                findAllCategories();
+                                 ?>
+                                 
+                                 <?php // DELETE QUERY
+                                  deleteCategories();
                                    
+                                   ?>
                                 </tbody>
                                
                             </table>

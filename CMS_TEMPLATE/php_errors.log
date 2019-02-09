@@ -55,3 +55,18 @@
 [09-Feb-2019 15:19:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 98
 [09-Feb-2019 15:19:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 98
 [09-Feb-2019 15:21:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 100
+[09-Feb-2019 16:39:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 92
+[09-Feb-2019 17:27:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php on line 59
+[09-Feb-2019 17:27:05 UTC] PHP Stack trace:
+[09-Feb-2019 17:27:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:0
+[09-Feb-2019 17:27:05 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:59
+[09-Feb-2019 17:53:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php on line 13
+[09-Feb-2019 17:53:05 UTC] PHP Stack trace:
+[09-Feb-2019 17:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:0
+[09-Feb-2019 17:53:05 UTC] PHP   2. insert_Categories() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:23
+[09-Feb-2019 17:53:05 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:13
+[09-Feb-2019 17:53:05 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php on line 16
+[09-Feb-2019 17:53:05 UTC] PHP Stack trace:
+[09-Feb-2019 17:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:0
+[09-Feb-2019 17:53:05 UTC] PHP   2. insert_Categories() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:23
+[09-Feb-2019 17:53:05 UTC] PHP   3. mysqli_error() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:16
