@@ -8,8 +8,10 @@
         <th>Status</th>
         <th>Image</th>
         <th>Tags</th>
-        <!--<th>Comments</th>-->
+        <th>Comments</th>
         <th>Date</th>
+        <th>Edit</th>
+        <th>Delete</th>
     
     </tr>
     </thead>
@@ -25,7 +27,7 @@ while($row = mysqli_fetch_assoc($view_all_posts_query)) {
     $post_status = $row['post_status'];
     $post_image =  $row['post_image'];
     $post_tags = $row['post_tags'];
-    // $post_comment_count = $row['post_comment_count'];
+    $post_comment_count = $row['post_comment_count'];
     $post_date = $row['post_date'];
     echo "<tr>";
     echo "<td>{$post_id}</td>";
@@ -48,7 +50,7 @@ while($row = mysqli_fetch_assoc($view_all_posts_query)) {
     echo "<td>{$post_status}</td>";
     echo "<td><img src='../images/$post_image' alt='image' width='100'></td>";
     echo "<td>{$post_tags}</td>";
-    // echo "<td>{$post_comment_count}</td>";
+    echo "<td>{$post_comment_count}</td>";
     echo "<td>{$post_date}</td>";
     echo "<td><a href='admin_posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
     echo "<td><a href='admin_posts.php?delete={$post_id}'>Delete</a></td>";

@@ -100,3 +100,33 @@
 [11-Feb-2019 07:18:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:0
 [11-Feb-2019 07:18:49 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:32
 [11-Feb-2019 07:18:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php:8
+[13-Feb-2019 17:44:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php on line 40
+[13-Feb-2019 17:44:30 UTC] PHP Stack trace:
+[13-Feb-2019 17:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[13-Feb-2019 17:44:30 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
+[13-Feb-2019 17:44:30 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
+[13-Feb-2019 17:44:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php on line 40
+[13-Feb-2019 17:44:30 UTC] PHP Stack trace:
+[13-Feb-2019 17:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[13-Feb-2019 17:44:30 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
+[13-Feb-2019 17:44:30 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
+[13-Feb-2019 17:45:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php on line 40
+[13-Feb-2019 17:45:23 UTC] PHP Stack trace:
+[13-Feb-2019 17:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[13-Feb-2019 17:45:23 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
+[13-Feb-2019 17:45:23 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
+[13-Feb-2019 17:45:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php on line 40
+[13-Feb-2019 17:45:23 UTC] PHP Stack trace:
+[13-Feb-2019 17:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[13-Feb-2019 17:45:23 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
+[13-Feb-2019 17:45:23 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
+[13-Feb-2019 17:47:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php on line 40
+[13-Feb-2019 17:47:49 UTC] PHP Stack trace:
+[13-Feb-2019 17:47:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[13-Feb-2019 17:47:49 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
+[13-Feb-2019 17:47:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
+[13-Feb-2019 17:47:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php on line 40
+[13-Feb-2019 17:47:49 UTC] PHP Stack trace:
+[13-Feb-2019 17:47:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[13-Feb-2019 17:47:49 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
+[13-Feb-2019 17:47:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
