@@ -36,8 +36,9 @@ while($row = mysqli_fetch_assoc($view_all_posts_query)) {
         $query = "SELECT * FROM categories WHERE cat_id = {$post_category_id} ";
         $select_categories_id = mysqli_query($connection, $query);
         while($row = mysqli_fetch_assoc($select_categories_id)){
-        $cat_title = $row['cat_title'];
         $cat_id = $row['cat_id'];
+        $cat_title = $row['cat_title'];
+       
  
         echo "<td>{$cat_title}</td>";
     
@@ -72,5 +73,5 @@ if(isset($_GET['delete'])){
     $delete_query = mysqli_query($connection, $query);
 }
 // header("Location: admin_posts.php");
-
+s
 ?>
