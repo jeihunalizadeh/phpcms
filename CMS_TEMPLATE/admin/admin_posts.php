@@ -28,8 +28,8 @@ switch($source) {
     include 'includes/add_post.php';
     break;
     
-    case '43';
-    echo '43';
+    case 'edit_post';
+    include 'includes/edit_post.php';
     break;
     
     default:

@@ -103,3 +103,7 @@
 [03-Feb-2019 16:28:42 UTC] PHP Stack trace:
 [03-Feb-2019 16:28:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
 [03-Feb-2019 16:38:16 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/ubuntu/workspace/CMS_TEMPLATE/search.php on line 23
+[11-Feb-2019 08:14:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 33
+[11-Feb-2019 08:14:27 UTC] PHP Stack trace:
+[11-Feb-2019 08:14:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[11-Feb-2019 08:14:27 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:33

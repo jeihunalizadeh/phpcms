@@ -70,3 +70,33 @@
 [09-Feb-2019 17:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:0
 [09-Feb-2019 17:53:05 UTC] PHP   2. insert_Categories() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:23
 [09-Feb-2019 17:53:05 UTC] PHP   3. mysqli_error() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:16
+[11-Feb-2019 07:07:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 8
+[11-Feb-2019 07:07:43 UTC] PHP Stack trace:
+[11-Feb-2019 07:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:0
+[11-Feb-2019 07:07:43 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:32
+[11-Feb-2019 07:07:43 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php:8
+[11-Feb-2019 07:09:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 8
+[11-Feb-2019 07:09:49 UTC] PHP Stack trace:
+[11-Feb-2019 07:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:0
+[11-Feb-2019 07:09:49 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:32
+[11-Feb-2019 07:09:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php:8
+[11-Feb-2019 07:12:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/admin_edit_category.php on line 11
+[11-Feb-2019 07:12:51 UTC] PHP Stack trace:
+[11-Feb-2019 07:12:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:0
+[11-Feb-2019 07:12:51 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_categories.php:37
+[11-Feb-2019 07:12:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/admin_edit_category.php:11
+[11-Feb-2019 07:14:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 8
+[11-Feb-2019 07:14:12 UTC] PHP Stack trace:
+[11-Feb-2019 07:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:0
+[11-Feb-2019 07:14:12 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:32
+[11-Feb-2019 07:14:12 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php:8
+[11-Feb-2019 07:18:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 8
+[11-Feb-2019 07:18:26 UTC] PHP Stack trace:
+[11-Feb-2019 07:18:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:0
+[11-Feb-2019 07:18:26 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:32
+[11-Feb-2019 07:18:26 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php:8
+[11-Feb-2019 07:18:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 8
+[11-Feb-2019 07:18:49 UTC] PHP Stack trace:
+[11-Feb-2019 07:18:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:0
+[11-Feb-2019 07:18:49 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/posts.php:32
+[11-Feb-2019 07:18:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php:8

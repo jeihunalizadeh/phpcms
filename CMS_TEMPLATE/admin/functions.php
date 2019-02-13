@@ -10,12 +10,6 @@ function confirmPosts($result){
 
 
 
-
-
-
-
-
-
 function insertCategories() {
 global $connection;
    if(isset($_POST['submit'])) {
