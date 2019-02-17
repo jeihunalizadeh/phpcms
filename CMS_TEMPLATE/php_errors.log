@@ -130,3 +130,6 @@
 [13-Feb-2019 17:47:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
 [13-Feb-2019 17:47:49 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:36
 [13-Feb-2019 17:47:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_comments.php:40
+[16-Feb-2019 15:42:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/add_user.php on line 50
+[16-Feb-2019 15:42:32 UTC] PHP Stack trace:
+[16-Feb-2019 15:42:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/users.php:0
