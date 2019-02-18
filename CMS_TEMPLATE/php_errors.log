@@ -133,3 +133,7 @@
 [16-Feb-2019 15:42:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/add_user.php on line 50
 [16-Feb-2019 15:42:32 UTC] PHP Stack trace:
 [16-Feb-2019 15:42:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/users.php:0
+[18-Feb-2019 11:20:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 147
+[18-Feb-2019 11:24:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 20
+[18-Feb-2019 11:24:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 20
+[18-Feb-2019 11:43:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 146
