@@ -28,9 +28,8 @@
                         $post_tags = $row['post_tags'];
                         $post_status = $row['post_status'];
                         
-                        if(!$post_status == 'published') {
-                            echo "<h1 class='text-center'>SORRY, NO POSTS</h1";
-                        } else {
+                        if($post_status == 'published') {
+                       
                         
                         
                         
