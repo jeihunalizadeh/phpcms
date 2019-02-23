@@ -107,3 +107,27 @@
 [11-Feb-2019 08:14:27 UTC] PHP Stack trace:
 [11-Feb-2019 08:14:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
 [11-Feb-2019 08:14:27 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:33
+[20-Feb-2019 12:03:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 33
+[20-Feb-2019 12:03:33 UTC] PHP Stack trace:
+[20-Feb-2019 12:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[20-Feb-2019 12:03:33 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:33
+[20-Feb-2019 12:03:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 128
+[20-Feb-2019 12:03:33 UTC] PHP Stack trace:
+[20-Feb-2019 12:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[20-Feb-2019 12:03:33 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:128
+[20-Feb-2019 12:04:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 33
+[20-Feb-2019 12:04:12 UTC] PHP Stack trace:
+[20-Feb-2019 12:04:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[20-Feb-2019 12:04:12 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:33
+[20-Feb-2019 12:04:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 128
+[20-Feb-2019 12:04:12 UTC] PHP Stack trace:
+[20-Feb-2019 12:04:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[20-Feb-2019 12:04:12 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:128
+[23-Feb-2019 14:44:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 33
+[23-Feb-2019 14:44:25 UTC] PHP Stack trace:
+[23-Feb-2019 14:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[23-Feb-2019 14:44:25 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:33
+[23-Feb-2019 14:44:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 128
+[23-Feb-2019 14:44:25 UTC] PHP Stack trace:
+[23-Feb-2019 14:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[23-Feb-2019 14:44:25 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:128

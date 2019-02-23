@@ -24,6 +24,11 @@ if(isset($_POST['create_post'])) {
     
     
     confirmPosts($create_post_query);
+    
+    $get_post_id = mysqli_insert_id($connection);
+     echo   "<div class='alert alert-success'>
+  <strong>Post Added!</strong><p><a href='/CMS_TEMPLATE/post.php?p_id={$get_post_id}'>View Post</a> or <a href='admin_posts.php'>Edit more posts</a>
+</div>";
 }
 
 
@@ -101,8 +106,11 @@ echo "<option value='$cat_id'>$cat_title</option>";
         <input type="text" name="post_author" class="form-control"/>
     </div>
     <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input type="text" name="post_status" class="form-control"/>
+     <select name="post_status" id="">
+         <option value="draft">Select Options</option>
+         <option value="published">Published</option>
+         <option value="draft">Draft</option>
+     </select>
     </div>
     <div class="form-group">
         <label for="post_image">Post Image</label>
@@ -114,7 +122,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
     </div>
     <div class="form-group">
         <label for="post_content">Post Content</label>
-        <textarea class="form-control" id="" cols="30" rows="10" name="post_content"></textarea>
+        <textarea class="form-control" id="body" cols="30" rows="10" name="post_content"></textarea>
     </div>
     <div class="form-group">
         <input class="btn btn-primary" type="submit" name="create_post" value="Publish Post">

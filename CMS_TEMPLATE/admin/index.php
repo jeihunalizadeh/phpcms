@@ -146,7 +146,11 @@ echo "<div class='huge'>{$categories_count}</div>";
     </div>
 </div>
                 <!-- /.row -->
-<?php                
+<?php 
+$query = "SELECT * FROM posts where post_status = 'published' ";
+$select_all_published_posts = mysqli_query($connection, $query);
+$posts_published_count = mysqli_num_rows($select_all_published_posts); 
+
 $query = "SELECT * FROM posts where post_status = 'draft' ";
 $select_all_draft_posts = mysqli_query($connection, $query);
 $posts_draft_count = mysqli_num_rows($select_all_draft_posts);  
@@ -174,10 +178,10 @@ $sub_users_count = mysqli_num_rows($select_all_sub_users);
           ['Data', 'Count'],
           
           <?php
-          $element_text = ['Active Posts', 'Draft Posts', 'Comments', 'Pending Comments', 'Users', 'Subscribers', 'Categories'];
-          $element_count = [$posts_count, $posts_draft_count, $comment_count, $comments_unapproved_count, $users_count, $sub_users_count, $categories_count];
+          $element_text = ['All Posts', 'Active Posts', 'Draft Posts', 'Comments', 'Pending Comments', 'Users', 'Subscribers', 'Categories'];
+          $element_count = [$posts_count, $posts_published_count, $posts_draft_count, $comment_count, $comments_unapproved_count, $users_count, $sub_users_count, $categories_count];
           
-          for($i = 0; $i < 7; $i++) {
+          for($i = 0; $i < 8; $i++) {
               echo "['{$element_text[$i]}'" . "," . "{$element_count[$i]}],";
           }
           

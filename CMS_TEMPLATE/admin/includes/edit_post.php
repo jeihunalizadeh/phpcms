@@ -18,29 +18,6 @@ while($row = mysqli_fetch_assoc($select_post_by_id)) {
     $post_date = $row['post_date'];
 }
 
-?>
-<form action="" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="title">Post Title</label>
-        <input value="<?php echo $post_title; ?>" type="text" name="post_title" class="form-control"/>
-    </div>
-    <div class="form-group">
-        <select name="post_category" id="post_category">
-
-<?php
-$query = "SELECT * FROM categories";
-$select_categories = mysqli_query($connection, $query);
-
-confirmPosts($select_categories);
-
-while($row = mysqli_fetch_assoc($select_categories)){
-$cat_id = $row['cat_id'];
-$cat_title = $row['cat_title'];
-
-
-echo "<option value='$cat_id'>{$cat_title}</option>";
-
-     } 
 
 
 if(isset($_POST['update_post'])) {
@@ -79,8 +56,43 @@ if(isset($_POST['update_post'])) {
     
     $update_post = mysqli_query($connection, $query);
     confirmPosts($update_post);
-}
+    
+    
 
+ echo   "<div class='alert alert-success'>
+  <strong>Post Updated!</strong><p><a href='/CMS_TEMPLATE/post.php?p_id={$get_post_id}'>View Post</a> or <a href='admin_posts.php'>Edit more posts</a>
+</div>";
+    
+    
+    
+    
+    
+}
+?>
+
+
+<form action="" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="title">Post Title</label>
+        <input value="<?php echo $post_title; ?>" type="text" name="post_title" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <select name="post_category" id="post_category">
+
+<?php
+$query = "SELECT * FROM categories";
+$select_categories = mysqli_query($connection, $query);
+
+confirmPosts($select_categories);
+
+while($row = mysqli_fetch_assoc($select_categories)){
+$cat_id = $row['cat_id'];
+$cat_title = $row['cat_title'];
+
+
+echo "<option value='$cat_id'>{$cat_title}</option>";
+
+     } 
 
 
 
@@ -94,10 +106,28 @@ if(isset($_POST['update_post'])) {
         <label for="post_author">Post Author</label>
         <input value="<?php echo $post_author; ?>" type="text" name="post_author" class="form-control"/>
     </div>
-    <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input value="<?php echo $post_status; ?>" type="text" name="post_status" class="form-control"/>
-    </div>
+    
+    <select name="post_status" id="">
+        <option value='<?php echo $post_status ?>'><?php echo $post_status ?></option>
+        
+        <?php
+        if($post_status == 'draft') {
+            echo "<option value='published'>Published</option>";
+        } else {
+            echo "<option value='draft'>Draft</option>";
+        }
+        
+        
+        ?>
+    </select>
+    
+    
+    
+    
+    
+    
+    
+  
     <div class="form-group">
         <label for="post_image">Post Image</label>
         <img width="100" src="../images/<?php echo $post_image ?>">
@@ -109,7 +139,7 @@ if(isset($_POST['update_post'])) {
     </div>
     <div class="form-group">
         <label for="post_content">Post Content</label>
-        <textarea class="form-control" id="" cols="30" rows="10" name="post_content"><?php echo $post_content; ?>
+        <textarea class="form-control" id="body" cols="30" rows="10" name="post_content"><?php echo $post_content; ?>
         </textarea>
     </div>
     <div class="form-group">
