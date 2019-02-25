@@ -131,3 +131,11 @@
 [23-Feb-2019 14:44:25 UTC] PHP Stack trace:
 [23-Feb-2019 14:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
 [23-Feb-2019 14:44:25 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:128
+[25-Feb-2019 10:55:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 33
+[25-Feb-2019 10:55:29 UTC] PHP Stack trace:
+[25-Feb-2019 10:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[25-Feb-2019 10:55:29 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:33
+[25-Feb-2019 10:55:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/post.php on line 129
+[25-Feb-2019 10:55:29 UTC] PHP Stack trace:
+[25-Feb-2019 10:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
+[25-Feb-2019 10:55:29 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:129
