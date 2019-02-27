@@ -1,4 +1,4 @@
-      <table class="table table-bordered table-hover">
+      <table class="table table-bordered table-dark">
     <thead>
     <tr>
         <!--<th>Id</th>-->
@@ -51,8 +51,8 @@ while($row = mysqli_fetch_assoc($view_all_users_query)) {
   
     echo "<td><a href='users.php?change_to_admin={$user_id}'>Admin</a></td>";
     echo "<td><a href='users.php?change_to_sub={$user_id}'>Subscriber</td>";
-    echo "<td><a href='users.php?source=edit_user&edit_user={$user_id}'>Edit</a></td>";
-    echo "<td><a href='users.php?delete={$user_id}'>Delete</a></td>";
+    echo "<td><a class='btn btn-warning 'href='users.php?source=edit_user&edit_user={$user_id}'><i class='fa fa-edit'></i></a></td>";
+    echo "<td><a style='margin: auto;' class='btn btn-danger text-center' href='users.php?delete={$user_id}'><i class='fa fa-trash'></i></a></td>";
     echo "</tr>";
 }
                              
