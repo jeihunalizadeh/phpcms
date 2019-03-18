@@ -1,22 +1,21 @@
-      <table class="table table-bordered table-dark">
+<table class="table table-bordered table-hover">
     <thead>
     <tr>
-        <!--<th>Id</th>-->
         <th>Id</th>
         <th>Username</th>
         <th>Firstname</th>
         <th>Lastname</th>
         <th>Email</th>
         <th>Role</th>
-        <th>Approve</th>
-        <th>Unapprove</th>
+        <th>Admin</th>
+        <th>Subscriber</th>
         <th>Edit</th>
         <th>Delete</th>
-    
     </tr>
     </thead>
     <tbody>
-<?php                                
+<?php                   
+//SELECTING ALL USERS FROM TABLE AND DISPLAYING THEM
 $query = "SELECT * FROM users";
 $view_all_users_query = mysqli_query($connection, $query);
 while($row = mysqli_fetch_assoc($view_all_users_query)) {
@@ -31,39 +30,25 @@ while($row = mysqli_fetch_assoc($view_all_users_query)) {
     echo "<tr>";
     echo "<td>{$user_id}</td>";
     echo "<td>{$username}</td>";
-    // echo "<td>{$comment_post_id}</td>";
     echo "<td>{$user_firstname}</td>";
     echo "<td>{$user_lastname}</td>";
     echo "<td>{$user_email}</td>";
     echo "<td>{$user_role}</td>";
-    
-    // $query = "SELECT * FROM posts WHERE post_id = $comment_post_id ";
-    // $select_post_id_query  = mysqli_query($connection, $query);
-    // while($row = mysqli_fetch_assoc($select_post_id_query)) {
-    //     $post_id = $row['post_id'];
-    //     $post_title = $row['post_title'];
-    //     echo "<td><a href='../post.php?p_id=$post_id'>$post_title</a></td>";
-    // }
-    
-
-    
- 
-  
-    echo "<td><a href='users.php?change_to_admin={$user_id}'>Admin</a></td>";
-    echo "<td><a href='users.php?change_to_sub={$user_id}'>Subscriber</td>";
+    echo "<td><a class='btn btn-primary' href='users.php?change_to_admin={$user_id}'><i class='fa fa-user'</a></td>";
+    echo "<td><a class='btn btn-success' href='users.php?change_to_sub={$user_id}'><i class='fa fa-user'</td>";
     echo "<td><a class='btn btn-warning 'href='users.php?source=edit_user&edit_user={$user_id}'><i class='fa fa-edit'></i></a></td>";
     echo "<td><a style='margin: auto;' class='btn btn-danger text-center' href='users.php?delete={$user_id}'><i class='fa fa-trash'></i></a></td>";
     echo "</tr>";
 }
                              
-                                
 ?>                                
                  
-                            </tbody>
-                        </table>
+    </tbody>
+</table>
                         
 <?php
 
+//CHANGING USER_ROLE TO ADMIN
 if(isset($_GET['change_to_admin'])){
     $the_user_id = $_GET['change_to_admin'];
     
@@ -73,6 +58,7 @@ if(isset($_GET['change_to_admin'])){
 
 }
 
+//CHANGING USER_ROLE TO SUBSCRIBER
 if(isset($_GET['change_to_sub'])){
     $the_user_id = $_GET['change_to_sub'];
     
@@ -83,11 +69,7 @@ if(isset($_GET['change_to_sub'])){
 }
 
 
-
-
-
-
-
+//DELETING USERS
 if(isset($_GET['delete'])){
     $the_user_id = $_GET['delete'];
     

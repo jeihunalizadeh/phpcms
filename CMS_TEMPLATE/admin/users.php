@@ -15,7 +15,7 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">
                             WELCOME TO THE ADMIN PAGE
-                            <small>Jeihun</small>
+                            <small><?php echo $username; ?></small>
                         </h1>
 <?php
 if(isset($_GET['source'])){
