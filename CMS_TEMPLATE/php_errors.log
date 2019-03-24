@@ -137,3 +137,154 @@
 [18-Feb-2019 11:24:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 20
 [18-Feb-2019 11:24:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 20
 [18-Feb-2019 11:43:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/profile.php on line 146
+[18-Mar-2019 11:40:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_user.php on line 38
+[18-Mar-2019 11:40:39 UTC] PHP Stack trace:
+[18-Mar-2019 11:40:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/users.php:0
+[18-Mar-2019 11:40:39 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/users.php:32
+[18-Mar-2019 11:40:39 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_user.php:38
+[19-Mar-2019 05:36:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php on line 115
+[19-Mar-2019 05:36:53 UTC] PHP Stack trace:
+[19-Mar-2019 05:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:0
+[19-Mar-2019 05:36:53 UTC] PHP   2. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_comments.php:1
+[19-Mar-2019 05:59:34 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 05:59:34 UTC] PHP Stack trace:
+[19-Mar-2019 05:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 05:59:34 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 05:59:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 05:59:34 UTC] PHP Stack trace:
+[19-Mar-2019 05:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 05:59:34 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 05:59:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 05:59:34 UTC] PHP Stack trace:
+[19-Mar-2019 05:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 05:59:34 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 05:59:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 05:59:59 UTC] PHP Stack trace:
+[19-Mar-2019 05:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 05:59:59 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 05:59:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 05:59:59 UTC] PHP Stack trace:
+[19-Mar-2019 05:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 05:59:59 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 05:59:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 05:59:59 UTC] PHP Stack trace:
+[19-Mar-2019 05:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 05:59:59 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 06:00:13 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 06:00:13 UTC] PHP Stack trace:
+[19-Mar-2019 06:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:00:13 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 06:00:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 06:00:13 UTC] PHP Stack trace:
+[19-Mar-2019 06:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:00:13 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 06:00:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 06:00:13 UTC] PHP Stack trace:
+[19-Mar-2019 06:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:00:13 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 06:00:25 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 06:00:25 UTC] PHP Stack trace:
+[19-Mar-2019 06:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:00:25 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 06:00:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 06:00:25 UTC] PHP Stack trace:
+[19-Mar-2019 06:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:00:25 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 06:00:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 06:00:25 UTC] PHP Stack trace:
+[19-Mar-2019 06:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:00:25 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 06:01:38 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 06:01:38 UTC] PHP Stack trace:
+[19-Mar-2019 06:01:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:01:38 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 06:01:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 06:01:38 UTC] PHP Stack trace:
+[19-Mar-2019 06:01:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:01:38 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 06:01:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 06:01:38 UTC] PHP Stack trace:
+[19-Mar-2019 06:01:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:01:38 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 06:01:45 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 06:01:45 UTC] PHP Stack trace:
+[19-Mar-2019 06:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:01:45 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 06:01:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 06:01:45 UTC] PHP Stack trace:
+[19-Mar-2019 06:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:01:45 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 06:01:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 06:01:45 UTC] PHP Stack trace:
+[19-Mar-2019 06:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:01:45 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 06:02:16 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 19
+[19-Mar-2019 06:02:16 UTC] PHP Stack trace:
+[19-Mar-2019 06:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:02:16 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:19
+[19-Mar-2019 06:02:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 20
+[19-Mar-2019 06:02:16 UTC] PHP Stack trace:
+[19-Mar-2019 06:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:02:16 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:20
+[19-Mar-2019 06:02:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 21
+[19-Mar-2019 06:02:16 UTC] PHP Stack trace:
+[19-Mar-2019 06:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:02:16 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:21
+[19-Mar-2019 06:17:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 42
+[19-Mar-2019 06:17:30 UTC] PHP Stack trace:
+[19-Mar-2019 06:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:17:30 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:42
+[19-Mar-2019 06:20:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 42
+[19-Mar-2019 06:20:34 UTC] PHP Stack trace:
+[19-Mar-2019 06:20:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:20:34 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:42
+[19-Mar-2019 06:20:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 42
+[19-Mar-2019 06:20:40 UTC] PHP Stack trace:
+[19-Mar-2019 06:20:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:20:40 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:42
+[19-Mar-2019 06:21:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 42
+[19-Mar-2019 06:21:13 UTC] PHP Stack trace:
+[19-Mar-2019 06:21:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:21:13 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:42
+[19-Mar-2019 06:21:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 42
+[19-Mar-2019 06:21:26 UTC] PHP Stack trace:
+[19-Mar-2019 06:21:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:21:26 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:42
+[19-Mar-2019 06:23:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php on line 42
+[19-Mar-2019 06:23:39 UTC] PHP Stack trace:
+[19-Mar-2019 06:23:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:0
+[19-Mar-2019 06:23:39 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CMS_TEMPLATE/admin/post_comments.php:42
+[24-Mar-2019 07:40:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_posts.php on line 199
+[24-Mar-2019 07:40:27 UTC] PHP Stack trace:
+[24-Mar-2019 07:40:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 07:40:27 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 07:49:30 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_posts.php on line 45
+[24-Mar-2019 07:49:30 UTC] PHP Stack trace:
+[24-Mar-2019 07:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 07:49:30 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 07:49:30 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:113
+[24-Mar-2019 08:43:56 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 86
+[24-Mar-2019 08:43:56 UTC] PHP Stack trace:
+[24-Mar-2019 08:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 08:43:56 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 08:43:56 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:110
+[24-Mar-2019 08:44:06 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 86
+[24-Mar-2019 08:44:06 UTC] PHP Stack trace:
+[24-Mar-2019 08:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 08:44:06 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 08:44:06 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:110
+[24-Mar-2019 08:44:37 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 86
+[24-Mar-2019 08:44:37 UTC] PHP Stack trace:
+[24-Mar-2019 08:44:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 08:44:37 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 08:44:37 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:110
+[24-Mar-2019 08:44:40 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 86
+[24-Mar-2019 08:44:40 UTC] PHP Stack trace:
+[24-Mar-2019 08:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 08:44:40 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 08:44:40 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:110
+[24-Mar-2019 08:44:43 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 86
+[24-Mar-2019 08:44:43 UTC] PHP Stack trace:
+[24-Mar-2019 08:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 08:44:43 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 08:44:43 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:110

@@ -139,3 +139,7 @@
 [25-Feb-2019 10:55:29 UTC] PHP Stack trace:
 [25-Feb-2019 10:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:0
 [25-Feb-2019 10:55:29 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/CMS_TEMPLATE/post.php:129
+[18-Mar-2019 11:07:36 UTC] PHP Warning:  password_hash() expects parameter 2 to be long, string given in /home/ubuntu/workspace/CMS_TEMPLATE/registration.php on line 19
+[18-Mar-2019 11:07:36 UTC] PHP Stack trace:
+[18-Mar-2019 11:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/registration.php:0
+[18-Mar-2019 11:07:36 UTC] PHP   2. password_hash() /home/ubuntu/workspace/CMS_TEMPLATE/registration.php:19

@@ -22,18 +22,13 @@
         
     $view_query = "UPDATE posts SET post_views_count = post_views_count + 1 WHERE post_id = {$the_post_id} ";
     $send_query = mysqli_query($connection, $view_query);
-                
-                
-                
-                
-                
-                
+
     $query = "SELECT * FROM posts WHERE post_id = $the_post_id ";
     $select_all_posts_query = mysqli_query($connection, $query);
             
                     while($row = mysqli_fetch_assoc($select_all_posts_query)){
                         $post_title = $row['post_title'];
-                        $post_author = $row['post_author'];
+                        $post_author = $row['post_user'];
                         $post_date = $row['post_date'];
                         $post_image = $row['post_image'];
                         $post_content = $row['post_content'];
@@ -93,9 +88,9 @@ $query.= "VALUES ($the_post_id, '{$comment_author}' , '{$comment_email}' , '{$co
      
      $create_comments_query = mysqli_query($connection, $query);
      
-     $query = "UPDATE posts SET post_comment_count = post_comment_count + 1 ";
-     $query .= "WHERE post_id = $the_post_id";
-     $update_comment_count = mysqli_query($connection, $query);
+    //  $query = "UPDATE posts SET post_comment_count = post_comment_count + 1 ";
+    //  $query .= "WHERE post_id = $the_post_id";
+    //  $update_comment_count = mysqli_query($connection, $query);
 } else {
     echo "<script>alert('Fields cannot be empty');</script>";
 }  }

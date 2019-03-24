@@ -1,8 +1,7 @@
 <?php include("includes/admin_header.php"); ?>
 
     <div id="wrapper">
-
-        <!-- Navigation -->
+  <!-- Navigation -->
        <?php include("includes/admin_navigation.php"); ?>
 
         <div id="page-wrapper">
@@ -16,7 +15,7 @@
                             WELCOME TO THE ADMIN PAGE
                             <small><?php echo $_SESSION['username']; ?></small>
                         </h1>
-                       
+                        
                     </div>
                 </div>
                 <!-- /.row -->
@@ -37,8 +36,6 @@
       $select_all_posts = mysqli_query($connection, $query);
       $posts_count = mysqli_num_rows($select_all_posts);
       echo "<div class='huge'>{$posts_count}</div>";
-
-      
       ?>                  
               
                         <div>Posts</div>
@@ -184,13 +181,7 @@ $sub_users_count = mysqli_num_rows($select_all_sub_users);
           for($i = 0; $i < 8; $i++) {
               echo "['{$element_text[$i]}'" . "," . "{$element_count[$i]}],";
           }
-          
-          
-          
-          
           ?>
-        //   ['Posts', 1000],
-         
         ]);
 
         var options = {

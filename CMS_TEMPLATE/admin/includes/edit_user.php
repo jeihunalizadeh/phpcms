@@ -16,7 +16,9 @@ while($row = mysqli_fetch_assoc($select_users_query)) {
     $user_role =  $row['user_role'];
 }
 
-}
+?>
+
+<?php
 
 // UPDATING USERS
     if(isset($_POST['edit_user'])){
@@ -28,16 +30,18 @@ while($row = mysqli_fetch_assoc($select_users_query)) {
     $user_password = $_POST['user_password'];
     $user_role =  $_POST['user_role'];
     
-    $query = "SELECT randSalt FROM users";
-    $select_randsalt_query = mysqli_query($connection, $query);
-    if(!$select_randsalt_query) {
-        die("QUERY FAILED" . mysqli_error($connection));
+
+    if(!empty($user_password)){
+        $query_password = "SELECT user_password FROM users WHERE user_id = $the_user_id ";
+        $get_user_query = mysqli_query($connection, $query_password);
+        confirmPosts($get_user_query);
+        $row = mysqli_fetch_array($get_user_query);
+        $db_user_password= $row['user_password'];
+    
+    
+    if($db_user_password != $user_password) {
+      $hashed_password = password_hash($user_password, PASSWORD_BCRYPT, array('cost' => 12) );
     }
-    
-    $row = mysqli_fetch_array($select_randsalt_query);
-    $salt = $row['randSalt'];
-    $hashed_password = crypt($user_password, $salt);
-    
     
     $query = "UPDATE users SET ";
     $query.= "username = '{$username}', ";
@@ -52,8 +56,12 @@ while($row = mysqli_fetch_assoc($select_users_query)) {
     confirmPosts($edit_user_query);
 
     echo "<div class='alert alert-success'><h5>User Updated Succesfully!</h5></div>'";
+} 
+        
+    }
+} else {
+    header("Location: index.php");
 }
-
 
 ?>
 <form action="" method="post" enctype="multipart/form-data">
@@ -85,6 +93,7 @@ while($row = mysqli_fetch_assoc($select_users_query)) {
         echo   "<option value='admin'>admin</option>";
 
     }
+
          
 ?>            
        
@@ -99,7 +108,7 @@ while($row = mysqli_fetch_assoc($select_users_query)) {
     
     <div class="form-group col-md-6">
         <label for="password">Password</label>
-        <input type="password" value="<?php echo $user_password; ?>" class="form-control" name="user_password"/>
+        <input autocomplete="off" type="password" class="form-control" name="user_password"/>
     </div>
     <div class="form-group col-md-3">
         <input class="btn btn-warning" type="submit" name="edit_user" value="Edit User">

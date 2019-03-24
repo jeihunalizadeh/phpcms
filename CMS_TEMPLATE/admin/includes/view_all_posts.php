@@ -42,7 +42,7 @@
                     case 'delete':
                     $query = "DELETE FROM posts WHERE post_id = {$checkBoxValue} ";
                     $set_delete = mysqli_query($connection, $query);
-                    confirmPosts($set_delete);
+                    confirmQuery($set_delete);
                     break;
                     
             }
@@ -50,13 +50,6 @@
             
         }
     }
-    
-    
-    
-    
-    
-    
-    
     
     
     ?>
@@ -81,24 +74,7 @@
               <a class="btn btn-primary" href="admin_posts.php?source=add_post">Add New</a>
           </div>
           
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+     
     <thead>
     <tr>
         <th><input id="selectAllBoxes" type="checkbox"></th>
@@ -125,6 +101,7 @@ $view_all_posts_query = mysqli_query($connection, $query);
 while($row = mysqli_fetch_assoc($view_all_posts_query)) {
     $post_id = $row['post_id'];
     $post_author =  $row['post_author'];
+    $post_user = $row['post_user'];
     $post_title =  $row['post_title'];
     $post_category_id = $row['post_category_id'];
     $post_status = $row['post_status'];
@@ -133,9 +110,6 @@ while($row = mysqli_fetch_assoc($view_all_posts_query)) {
     $post_comment_count = $row['post_comment_count'];
     $post_date = $row['post_date'];
     $post_views_count = $row['post_views_count'];
-    
-    
-    
     echo "<tr>";
     ?>
     
@@ -144,7 +118,13 @@ while($row = mysqli_fetch_assoc($view_all_posts_query)) {
     
     <?php
     echo "<td>{$post_id}</td>";
-    echo "<td>{$post_author}</td>";
+  
+    if(!empty($post_author)){
+        echo "<td>{$post_author}</td>"; 
+    } elseif(!empty($post_user)) {
+        echo "<td>{$post_user}</td>";
+    }
+  
     echo "<td>{$post_title}</td>";
     
     
@@ -153,22 +133,29 @@ while($row = mysqli_fetch_assoc($view_all_posts_query)) {
         while($row = mysqli_fetch_assoc($select_categories_id)){
         $cat_id = $row['cat_id'];
         $cat_title = $row['cat_title'];
-       
- 
         echo "<td>{$cat_title}</td>";
-    
         }
     
     // echo "<td>{$post_category_id}</td>";
     echo "<td>{$post_status}</td>";
     echo "<td><img src='../images/$post_image' alt='image' width='100'></td>";
     echo "<td>{$post_tags}</td>";
-    echo "<td>{$post_comment_count}</td>";
+    
+    
+    
+    $query = "SELECT * FROM comments WHERE comment_post_id = $post_id";
+    $send_comment_query = mysqli_query($connection, $query);
+    $row = mysqli_fetch_array($send_comment_query);
+    $comment_id = $row['comment_id'];
+    $count_comments = mysqli_num_rows($send_comment_query);
+    
+    echo "<td><a href='post_comments.php?id=$post_id'>{$count_comments}</a></td>";
     echo "<td>{$post_date}</td>";
     echo "<td><a href='admin_posts.php?reset={$post_id}'>{$post_views_count}</a></td>";
     echo "<td><a href='../post.php?p_id={$post_id}'>View Post</a></td>";
     echo "<td><a href='admin_posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
-    echo "<td><a onClick = \"javascript: return confirm('Are you sure you want to delete?'); \"href='admin_posts.php?delete={$post_id}'>Delete</a></td>";
+    echo "<td><a onClick = \"javascript: return confirm('Are you sure you want to delete?');
+    \"href='admin_posts.php?delete={$post_id}'>Delete</a></td>";
     echo "</tr>";
 }
                          
