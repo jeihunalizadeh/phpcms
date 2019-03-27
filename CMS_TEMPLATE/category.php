@@ -15,11 +15,20 @@
                
     if(isset($_GET['category'])) {
         $post_category_id = $_GET['category'];
-    }                
-              
-    $query = "SELECT * FROM posts WHERE post_category_id = $post_category_id";
-    $select_all_posts_query = mysqli_query($connection, $query);
+            if(session_status() == PHP_SESSION_NONE) session_start();
+    
+    if(isset($_SESSION['user_role']) && $_SESSION['user_role'] == 'admin') {
+          $query = "SELECT * FROM posts WHERE post_category_id = $post_category_id ";
+    } else {
+   $query = "SELECT * FROM posts WHERE post_category_id = $post_category_id AND post_status = 'published' ";  
+   }
             
+              
+ 
+    $select_all_posts_query = mysqli_query($connection, $query);
+            if(mysqli_num_rows($select_all_posts_query) < 1) {
+                echo "<h1 class='text-center'>No posts avalaible</h1>";           
+            } else {
                     while($row = mysqli_fetch_assoc($select_all_posts_query)){
                         $post_id = $row['post_id'];
                         $post_title = $row['post_title'];
@@ -52,7 +61,12 @@
 
                 <hr>
 
-             <?php } ?>
+             <?php } } }  else {
+             
+                header("Location: index.php");
+             
+             }
+             ?>
 
             </div>
 

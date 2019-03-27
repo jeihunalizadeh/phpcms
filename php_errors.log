@@ -143,3 +143,19 @@
 [18-Mar-2019 11:07:36 UTC] PHP Stack trace:
 [18-Mar-2019 11:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/registration.php:0
 [18-Mar-2019 11:07:36 UTC] PHP   2. password_hash() /home/ubuntu/workspace/CMS_TEMPLATE/registration.php:19
+[24-Mar-2019 09:50:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/contact.php on line 58
+[27-Mar-2019 11:07:35 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 33
+[27-Mar-2019 11:07:35 UTC] PHP Stack trace:
+[27-Mar-2019 11:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/category.php:0
+[27-Mar-2019 11:08:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/CMS_TEMPLATE/includes/navigation.php on line 33
+[27-Mar-2019 11:08:11 UTC] PHP Stack trace:
+[27-Mar-2019 11:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/category.php:0
+[27-Mar-2019 11:53:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/includes/sidebar.php on line 86
+[27-Mar-2019 11:53:03 UTC] PHP Stack trace:
+[27-Mar-2019 11:53:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[27-Mar-2019 12:00:05 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ':' in /home/ubuntu/workspace/CMS_TEMPLATE/includes/sidebar.php on line 28
+[27-Mar-2019 12:00:05 UTC] PHP Stack trace:
+[27-Mar-2019 12:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0
+[27-Mar-2019 12:00:25 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ';' in /home/ubuntu/workspace/CMS_TEMPLATE/includes/sidebar.php on line 45
+[27-Mar-2019 12:00:25 UTC] PHP Stack trace:
+[27-Mar-2019 12:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/index.php:0

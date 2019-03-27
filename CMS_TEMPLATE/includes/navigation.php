@@ -22,9 +22,25 @@
                     
                     while($row = mysqli_fetch_assoc($select_all_categories_query)){
                         $cat_title = $row['cat_title'];
-                        echo "<li><a href='#'>{$cat_title}</a></li>";
-                    }
+                        $cat_id = $row['cat_id'];
+                        
+                        $category_class = '';
+                        $registration_static_class = '';
+                        
+                        $pageName = basename($_SERVER['PHP_SELF']);
+                        $registration_static = 'registration.php';
+                        
+                        if(isset($_GET['category']) && $_GET['category'] == $cat_id) {
+                             $category_class = 'active';
+                        } elseif($pageName == $registration_static) {
+                            $registration_static_class = 'active';
+                        }
+                        
+                        
+                    echo "<li class='$category_class'><a href='category.php?category={$cat_id}'>{$cat_title}</a></li>";                   
+}
                     
+
                     ?>
                     
                     
@@ -32,7 +48,7 @@
                         <a href="admin">Admin</a>
                     </li>
                       
-                      <li>
+                      <li class="<?php echo $registration_static_class ?>">
                         <a href="registration.php">Register</a>
                     </li>
                      <li>

@@ -288,3 +288,46 @@
 [24-Mar-2019 08:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
 [24-Mar-2019 08:44:43 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
 [24-Mar-2019 08:44:43 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:110
+[24-Mar-2019 10:10:43 UTC] PHP Warning:  include(modal_delete.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php on line 3
+[24-Mar-2019 10:10:43 UTC] PHP Stack trace:
+[24-Mar-2019 10:10:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 10:10:43 UTC] PHP Warning:  include(): Failed opening 'modal_delete.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php on line 3
+[24-Mar-2019 10:10:43 UTC] PHP Stack trace:
+[24-Mar-2019 10:10:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 10:11:02 UTC] PHP Warning:  include(inlcudes/modal_delete.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php on line 3
+[24-Mar-2019 10:11:02 UTC] PHP Stack trace:
+[24-Mar-2019 10:11:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 10:11:02 UTC] PHP Warning:  include(): Failed opening 'inlcudes/modal_delete.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php on line 3
+[24-Mar-2019 10:11:02 UTC] PHP Stack trace:
+[24-Mar-2019 10:11:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 10:11:05 UTC] PHP Warning:  include(inlcudes/modal_delete.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php on line 3
+[24-Mar-2019 10:11:05 UTC] PHP Stack trace:
+[24-Mar-2019 10:11:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 10:11:05 UTC] PHP Warning:  include(): Failed opening 'inlcudes/modal_delete.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php on line 3
+[24-Mar-2019 10:11:05 UTC] PHP Stack trace:
+[24-Mar-2019 10:11:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 16:22:55 UTC] PHP Fatal error:  Call to undefined function confirmPosts() in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/view_all_posts.php on line 19
+[24-Mar-2019 16:22:55 UTC] PHP Stack trace:
+[24-Mar-2019 16:22:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[24-Mar-2019 16:22:55 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[24-Mar-2019 16:22:55 UTC] PHP   3. include() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:113
+[27-Mar-2019 12:11:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 165
+[27-Mar-2019 12:11:13 UTC] PHP Stack trace:
+[27-Mar-2019 12:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[27-Mar-2019 12:11:13 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[27-Mar-2019 12:15:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 165
+[27-Mar-2019 12:15:57 UTC] PHP Stack trace:
+[27-Mar-2019 12:15:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[27-Mar-2019 12:15:57 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[27-Mar-2019 12:16:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 165
+[27-Mar-2019 12:16:36 UTC] PHP Stack trace:
+[27-Mar-2019 12:16:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[27-Mar-2019 12:16:36 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[27-Mar-2019 12:16:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 165
+[27-Mar-2019 12:16:46 UTC] PHP Stack trace:
+[27-Mar-2019 12:16:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[27-Mar-2019 12:16:46 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[27-Mar-2019 12:18:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CMS_TEMPLATE/admin/includes/edit_post.php on line 165
+[27-Mar-2019 12:18:56 UTC] PHP Stack trace:
+[27-Mar-2019 12:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
+[27-Mar-2019 12:18:56 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22

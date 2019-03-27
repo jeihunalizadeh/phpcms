@@ -17,10 +17,19 @@
                 </div>
                 </form>
                  <!--INPUT FORM-->
-          <form action="includes/login.php" method="POST">
+        
                 <!-- Blog Search Well -->
                 <div class="well">
-                    <h4>Login Form</h4>
+                    
+                    <?php if(isset($_SESSION['user_role'])): ?>
+                    
+                    <h4>Logged in as <?php echo $_SESSION['username']; ?></h4>
+                    <a href="includes/logout.php" class="btn btn-primary">Log out</a>
+                    
+                    <?php else: ?>
+                    
+          <form action="includes/login.php" method="POST">
+                      <h4>Login Form</h4>
                     <div class="form-group">
                         <input name="username" placeholder="Enter Username" type="text" class="form-control">
                         <div class="input-group">
@@ -34,9 +43,12 @@
                         </div>
                     </div>
                     <!-- /.input-group -->
-                </div>
+             
                 </form>
-
+                    <?php endif; ?>
+                    
+             
+      </div>
                 <!-- Blog Categories Well -->
                 <div class="well">
                     <?php

@@ -9,14 +9,14 @@
                     case 'published':
                     $query="UPDATE posts SET post_status = '{$bulk_options}' WHERE post_id = {$checkBoxValue} ";
                     $set_status_published = mysqli_query($connection, $query);
-                    confirmPosts($set_status_published);
+                    confirmQuery($set_status_published);
                     
                     break;
                     
                     case 'draft':
                     $query="UPDATE posts SET post_status = '{$bulk_options}' WHERE post_id = {$checkBoxValue} ";
                     $set_status_draft = mysqli_query($connection, $query);
-                    confirmPosts($set_status_draft);
+                    confirmQuery($set_status_draft);
                     
                     break;  
                     
@@ -25,6 +25,7 @@
                     $select_post_query = mysqli_query($connection, $query);
                  while($row = mysqli_fetch_assoc($select_post_query)) {
                     $post_author =  $row['post_author'];
+                    $post_user =  $row['post_user'];
                     $post_title =  $row['post_title'];
                     $post_category_id = $row['post_category_id'];
                     $post_status = $row['post_status'];
@@ -34,8 +35,8 @@
                     $post_content = $row['post_content'];
                                     
                  }
-     $query = "INSERT INTO posts(post_category_id, post_title, post_author, post_date, post_image, post_content, post_tags, post_status) ";
-    $query .= "VALUES({$post_category_id},'{$post_title}','{$post_author}',now(),'{$post_image}','{$post_content}','{$post_tags}', '{$post_status}') ";
+     $query = "INSERT INTO posts(post_category_id, post_title, post_author, post_user, post_date, post_image, post_content, post_tags, post_status) ";
+    $query .= "VALUES({$post_category_id},'{$post_title}','{$post_author}', '{$post_user}', now(),'{$post_image}','{$post_content}','{$post_tags}', '{$post_status}') ";
                   $copy_query = mysqli_query($connection, $query);  
                     break;
                     
