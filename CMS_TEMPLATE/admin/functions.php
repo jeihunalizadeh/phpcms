@@ -116,12 +116,33 @@ break;
 }
 
 
+// Count of widgets 
+function recordCount($table) {
+    global $connection;
+    $query = "SELECT * FROM " . $table;
+    $select_all_posts = mysqli_query($connection, $query);
+    $result = mysqli_num_rows($select_all_posts);
+    confirmQuery($result);
+    return $result;
+}
 
+/*********************** CHECK STATUS FOR CHARTS /****************************/
 
-
-
-
-
+function checkStatus($table, $column, $status){
+    global $connection;
+    $query = "SELECT * FROM $table WHERE $column = '$status' ";
+    $result= mysqli_query($connection, $query);
+    confirmQuery($result);
+    return mysqli_num_rows($result);
+}
+/*********************** CHECH USER ROLE FOR CHARTS ********************/                
+function checkUserRole($table, $column, $role) {
+    global $connection;
+$query = "SELECT * FROM $table WHERE $column = '$role' ";
+$result = mysqli_query($connection,$query);
+confirmQuery($result);
+return mysqli_num_rows($result);
+}
 
 
 

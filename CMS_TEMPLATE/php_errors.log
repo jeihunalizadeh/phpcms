@@ -331,3 +331,18 @@
 [27-Mar-2019 12:18:56 UTC] PHP Stack trace:
 [27-Mar-2019 12:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:0
 [27-Mar-2019 12:18:56 UTC] PHP   2. crudPosts() /home/ubuntu/workspace/CMS_TEMPLATE/admin/admin_posts.php:22
+[28-Mar-2019 11:01:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php on line 124
+[28-Mar-2019 11:01:03 UTC] PHP Stack trace:
+[28-Mar-2019 11:01:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:0
+[28-Mar-2019 11:01:03 UTC] PHP   2. recordCount() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:34
+[28-Mar-2019 11:01:03 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:124
+[28-Mar-2019 11:02:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php on line 124
+[28-Mar-2019 11:02:58 UTC] PHP Stack trace:
+[28-Mar-2019 11:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:0
+[28-Mar-2019 11:02:58 UTC] PHP   2. recordCount() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:34
+[28-Mar-2019 11:02:58 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:124
+[28-Mar-2019 11:03:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php on line 124
+[28-Mar-2019 11:03:10 UTC] PHP Stack trace:
+[28-Mar-2019 11:03:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:0
+[28-Mar-2019 11:03:10 UTC] PHP   2. recordCount() /home/ubuntu/workspace/CMS_TEMPLATE/admin/index.php:34
+[28-Mar-2019 11:03:10 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/CMS_TEMPLATE/admin/functions.php:124
